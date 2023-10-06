@@ -22,7 +22,8 @@
   ],
   "scripts": {
     "prepare": "npm run build",
-    "build": "rollup --config rollup.config.ts --configPlugin typescript",
+    "build": "rollup --config rollup.config.ts --configPlugin typescript && tsc",
+    "build-tsc": "tsc",
     "lint": "eslint .",
     "test": "npm run lint && npm run coverage",
     "open-coverage": "open coverage/lcov-report/index.ts.html",
