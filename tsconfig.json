@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
+    "rootDir": "src",
     "target": "ESNext",
     "esModuleInterop": true,
     "strict": true,
+    "module": "CommonJS",
     "moduleResolution": "node",
     "outDir": "dist",
     "declaration": true

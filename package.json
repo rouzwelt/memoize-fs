@@ -14,17 +14,14 @@
     "file system",
     "fs"
   ],
+  "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/index.mjs"
-    }
-  },
   "files": [
     "dist"
   ],
   "scripts": {
+    "prepare": "npm run build",
     "build": "rollup --config rollup.config.ts --configPlugin typescript",
     "lint": "eslint .",
     "test": "npm run lint && npm run coverage",
