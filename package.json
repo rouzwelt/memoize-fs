@@ -2,7 +2,6 @@
   "name": "memoize-fs",
   "version": "3.0.0",
   "private": false,
-  "type": "module",
   "author": "Boris Diakur (https://borisdiakur.de)",
   "description": "Node.js solution for memoizing/caching function results on the file system",
   "keywords": [
